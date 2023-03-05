@@ -1,0 +1,10 @@
+#cloud-config
+
+hostname: ubuntuterraform
+apt_upgrade: true
+
+users:
+- name: datagnome
+  ssh_authorized_keys:
+    - ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAjMXQ5nep2GhelSvA8Kuld5ApUR8YhcyDLo+1QwGng20vAHxJeiQ4vEHart0AAOiP289b3CCaVt4inn81FW1yxRZwgfmoZ7rtoVHKNwMl6fav/AO1IXr9mvPqlEJ/1ntcOB/5B8f3Wi6EuECbtTy/bKDAtdUYVAEZuhmODtd4AIaeOoytB5rQtiVn4uZIY6E0Id9ccKbancG8g3SEjHEH1wSooiLfRDjjR9VZ1hZ3pgP2MPjPrvEgjgvWND0nNyLDs3TLyBnrV2VHmK4DcgwT+uNaoQWfwKTruLP6yrAFUowgOSMuJcdAOodB+nDUuOuEo9h0qxTh2qbJFwbFjsJK2w==
+  sudo: ALL=(ALL) NOPASSWD:ALL  

@@ -1,0 +1,17 @@
+# vCenter server and the username/password to use
+vcenter = ""
+username = ""
+password = ""
+
+
+# Info about the environment
+dc = ""
+vsphere_cluster = ""
+# If a resource pool was not created, you'll specify the cluster again as it is the default top-level pool
+# This is also only valid if DRS is enabled
+vsphere_rp = ""
+# You might have several different datastores setup, you will need to specify the one you will be using here
+vsphere_datastore = ""
+# Again, you might have different networks setup, specify the one you plan on using here
+vsphere_network_mgmt = ""
+vsphere_network_mine = ""
